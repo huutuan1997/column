@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.logo img{
+	width:178px
+}
+.nav{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav ul{
+	list-style: none;
+	display:flex;
+}
+.nav li{
+	margin-left:40px
+}
+.nav li a{
+	color:#191919;
+	font-weight: bold;
+	text-decoration: none
+}
+.nav li a:hover{
+	text-decoration: underline
+}
+/*header*/
+.content-banner h1{
+	font-size:41px
+}
+.line{
+	height: 2px;
+	width: 50px;
+	background:#212121;
+	margin:28px 0 
+}
+.content-banner{
+	margin-bottom: 15px
+}
+.content-banner p{
+	font-size: 20px;
+	margin-bottom: 54px
+}
+.btn{
+/*	background: #6C63FF;*/
+	padding:15px 40px;
+	text-decoration: none
+}
+.btn-primary{
+	background: #6C63FF;
+	border: 1.5px solid #353434;
+	color:white
+}
+.btn-outline{
+	border: 1.5px solid #B3B7B7;
+	color: #000000
+}
+.banner img{
+	width: 509px
+}
+/*banner*/
+.title{
+	text-align: center
+}
+.title h1{
+	font-size: 44px
+}
+.title p{
+	font-size: 20px
+}
+.title .line{
+	margin: 28px auto
+}
+/*title how*/
+.app{
+	text-align: center;
+}
+.future-img img{
+	width:207px;
+}
+.app h1{
+	font-size:27px;
+	margin: 32px 0 12px
+}
+.app p{
+	font-size:14px
+}
+/*app*/
+.bg{
+	background: #F0F0F0;
+	height:580px;
+}
+.hinh img{
+	width:495px;
+	margin-bottom: 50px;
+	position: relative;
+/*	margin-top: -200px*/
+}
+.content-bg h1{
+	font-size: 40px;
+}
+.content-bg .line{
+	margin: 5px 15px 30px
+}
+.content-bg p{
+	font-size: 20px;
+	margin-bottom: 10px
+}
+.content-bg a{
+	text-decoration: none;
+	font-weight: 600;
+	color:#263680
+}
+.shape{
+	position: absolute;
+	left: -80px;
+	top: -50px;
+	width: 221px;
+	height: 221px;
+	background:#B9B9B9;
+	border-radius: 50%
+}
+.left{
+	position: relative
+}
+/*real-time*/
+.copyright{
+	text-align: center
+}
+.copyright p{
+	font-size: 18px;
+	padding: 20px 0;
+	color:#909090;
+}
+.copyright img{
+	width:113px;
+	margin-bottom: 20px
+}
